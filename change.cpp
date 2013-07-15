@@ -18,5 +18,14 @@ core::core()
 }
 core::~core()
 {
-	porintf("Shutting down,runned time %d",seconds);
+	printf("Shutting down,runned time %d",seconds);
+}
+core::run()
+{}
+core::stop()
+{} //SAVE DATA
+void main()
+{
+	class core thread= new core();
+	
 }
